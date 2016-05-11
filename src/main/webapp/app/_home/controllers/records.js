@@ -5,11 +5,11 @@ define(function(require) {
      //require('../../../app');
 
      var recordCtl = function($scope){
-		$scope.records = [
-             "Alfreds Futterkiste",
-             "Berglunds snabbkp",
-             "Centro comercial Moctezuma",
-             "Ernst Handel123"
+            $scope.records = [
+             "N-Tier - architecture",
+             "TestNG - Unit Testing",
+             "Jenkins.io - automation server,",
+             "Tomcat / Jetty / JBoss"
          ];
 
      };
