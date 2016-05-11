@@ -1,0 +1,25 @@
+{
+  "name": "dev-gar",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Tony Chen <tony.chen@8x8.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "^0.3.2",
+    "angular": "angularjs#^1.5.5",
+    "requirejs": "^2.2.0",
+    "text": "requirejs-text#^2.0.15",
+    "angular-route": "^1.5.5",
+    "angular-ui-router": "^0.2.18"
+  }
+}
