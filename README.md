@@ -1,4 +1,15 @@
-#Login Portal v1.0.0
+#Admin Portal v1.0.0
+
+
+#Setup
+
+    npm install
+    
+    bower install
+
+        There will be a conflict with jquery / font-awesome 
+        because the original bower developer did not update their bower.json 
+        some of their dependency was out date. 
 
 #Command Line 
 
