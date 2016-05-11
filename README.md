@@ -26,7 +26,7 @@
 
     TestNG With Spring Framework.    
 
-#Debug in Netbeans IDE
+#Debug using Netbeans IDE
 
 Project - Properties - Actions - Debug project
 
