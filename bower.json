@@ -21,7 +21,6 @@
     "text": "requirejs-text#^2.0.15",
     "angular-route": "^1.5.5",
     "angular-ui-router": "^0.2.18",
-    "adminlte-bower": "^2.2.1",
-    "jquery": "~2.1.4"
+    "adminlte-bower": "^2.2.1"
   }
 }
