@@ -22,6 +22,10 @@
 
     mvn clean package
 
+#Unit Testing
+
+    TestNG With Spring Framework.    
+
 #Debug in Netbeans IDE
 
 Project - Properties - Actions - Debug project
@@ -31,7 +35,6 @@ Project - Properties - Actions - Debug project
     set properties : jpda.listen=maven
 
 #Login REST API
-
 
     GET request to /api/users/ returns a list of users
     GET request to /api/user/1 returns the user with ID 1
