@@ -4,6 +4,7 @@ package com._8x8.presentation.controller;
 import com._8x8.logic.service.IUserPhoneLogProvider;
 import com._8x8.logic.service.IUserPhoneLogService;
 import com._8x8.logic.service.IUserService;
+import com._8x8.presentation.model.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,7 +28,7 @@ public class indexController {
 
     @RequestMapping(value = "/{name:.+}", method = RequestMethod.GET)
     public String spaPage(@PathVariable("name")String name, ModelMap model) {
-      //  User mUser = _userSerice.GetUserById(0);
+        User mUser = _userSerice.GetUserById(0);
         model.addAttribute("application", name);
         
         return "adminLTE".equals(name) ? "adminLTE" : "index";
