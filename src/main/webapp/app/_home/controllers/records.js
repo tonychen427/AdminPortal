@@ -6,9 +6,9 @@ define(function(require) {
 
      var recordCtl = function($scope){
             $scope.records = [
-             "N-Tier - architecture",
+             "N-Tier - Architecture",
              "TestNG - Unit Testing",
-             "Jenkins.io - automation server,",
+             "Jenkins.io - Automation Server,",
              "Tomcat / Jetty / JBoss"
          ];
 
