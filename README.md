@@ -2,12 +2,17 @@ Login Portal v1.0.0
 
 Command Line 
     mvn clean install
+
     mvn jetty:run
+
 
 debug netbean
 Project - Properties - Actions - Debug project
+
     Execute Goals : jetty:run
+
     set properties : jpda.listen=maven
+
 
 
 Login API
