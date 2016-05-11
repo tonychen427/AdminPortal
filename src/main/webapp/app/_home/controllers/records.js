@@ -2,7 +2,7 @@ define(function(require) {
     'use strict';
 
      require('../directives/records');
-     require('../../../app');
+     //require('../../../app');
 
      var recordCtl = function($scope){
 		$scope.records = [

@@ -24,6 +24,7 @@
 	<mvc:resources mapping="/resources/**" location="/resources/" />
         <mvc:resources mapping="/app/**" location="/app/"/>
         <mvc:resources mapping="/bower_components/**" location="/bower_components/" />
+        <mvc:resources mapping="/img/**" location="/img/" />
  
 	<mvc:annotation-driven />
 	

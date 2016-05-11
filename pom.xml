@@ -178,7 +178,7 @@
                             <arguments>install --allow-root</arguments>
                         </configuration>
                     </execution>
-<!--                    <execution>
+                    <execution>
                         <id>gulp maven build</id>
                         <goals>
                             <goal>gulp</goal>
@@ -186,7 +186,7 @@
                         <configuration>
                             <arguments>build</arguments>
                         </configuration>
-                    </execution>-->
+                    </execution>
                     <!--                    <execution>
                         <id>grunt maven build</id>
                         <goals>
