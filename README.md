@@ -8,11 +8,11 @@
     bower install
 
         There will be a conflict with jquery / font-awesome 
-        because the original bower developer did not update their bower.json 
-        some of their dependency was out date.  so select the latest jquery / font-awesome library.
+        because the original library did not update their bower.json 
+        so some of their dependency was out date. Please select the latest jquery / font-awesome library.
 
-                8) jquery#~2.1.4 
-                2) components-font-awesome#~4.5 
+               - jquery#~2.1.4 
+               - components-font-awesome#~4.5 
 
 #Command Line 
 
