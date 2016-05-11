@@ -34,7 +34,15 @@ Project - Properties - Actions - Debug project
 
     set properties : jpda.listen=maven
 
+#URL
+
+    http://localhost:8080/index
+    http://localhost:8080/adminLTE
+
+
 #Login REST API
+
+    http://localhost:8080/api/users/
 
     GET request to /api/users/ returns a list of users
     GET request to /api/user/1 returns the user with ID 1
