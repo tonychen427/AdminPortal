@@ -6,15 +6,13 @@
 
     mvn jetty:run
 
-#Debug netbean
+#Debug in Netbeans IDE
 
 Project - Properties - Actions - Debug project
 
     Execute Goals : jetty:run
 
     set properties : jpda.listen=maven
-
-
 
 #Login API
 
