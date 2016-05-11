@@ -28,7 +28,8 @@ public class indexController {
 
     @RequestMapping(value = "/{name:.+}", method = RequestMethod.GET)
     public String spaPage(@PathVariable("name")String name, ModelMap model) {
-        User mUser = _userSerice.GetUserById(0);
+        
+        //User mUser = _userSerice.GetUserById(0);
         model.addAttribute("application", name);
         
         return "adminLTE".equals(name) ? "adminLTE" : "index";
