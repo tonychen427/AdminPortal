@@ -40,7 +40,7 @@ Project - Properties - Actions - Debug project
     http://localhost:8080/adminLTE
 
 
-#Login REST API
+#RESTful API
 
     http://localhost:8080/api/users/
 
