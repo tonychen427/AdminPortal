@@ -1,12 +1,13 @@
-Login Portal v1.0.0
+#Login Portal v1.0.0
 
-Command Line 
+#Command Line 
+
     mvn clean install
 
     mvn jetty:run
 
+#Debug netbean
 
-debug netbean
 Project - Properties - Actions - Debug project
 
     Execute Goals : jetty:run
@@ -15,7 +16,7 @@ Project - Properties - Actions - Debug project
 
 
 
-Login API
+#Login API
 
     GET request to /api/users/ returns a list of users
     GET request to /api/user/1 returns the user with ID 1
