@@ -9,13 +9,18 @@
 
         There will be a conflict with jquery / font-awesome 
         because the original bower developer did not update their bower.json 
-        some of their dependency was out date. 
+        some of their dependency was out date.  so select the latest jquery / font-awesome library.
+
+                8) jquery#~2.1.4 
+                2) components-font-awesome#~4.5 
 
 #Command Line 
 
     mvn clean install
 
     mvn jetty:run
+
+    mvn clean package
 
 #Debug in Netbeans IDE
 
@@ -25,7 +30,8 @@ Project - Properties - Actions - Debug project
 
     set properties : jpda.listen=maven
 
-#Login API
+#Login REST API
+
 
     GET request to /api/users/ returns a list of users
     GET request to /api/user/1 returns the user with ID 1

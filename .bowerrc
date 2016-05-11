@@ -1,0 +1,6 @@
+/target/
+/node_modules/
+/node/
+/etc/
+/logs/
+/src/main/webapp/bower_components/
